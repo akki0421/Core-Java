@@ -9,7 +9,7 @@ public class StringReverser {
 		
 		// Used string builder class of java to reverse the string. below we are creating the object of string builder
 		
-	//	StringBuilder reversed = new StringBuilder();
+	StringBuilder reversed = new StringBuilder();
 		
 		
 		//running the loop in reveresed and appending the reversed value one after another this is a second method.
@@ -18,18 +18,18 @@ public class StringReverser {
 			
 		{
 			
-		//	reversed.append(inputString.charAt(i));
+			reversed.append(inputString.charAt(i));
 			
 			
-			reversal +=inputString.charAt(i);
+		//	reversal +=inputString.charAt(i);
 			
 		}
 		
 		//Returning the reversed.tostring method which means the computation is returned.
 		
-	//	return reversed.toString();
+	return reversed.toString();
 		
-		return reversal.toString();
+		//return reversal.toString();
 		
 	}
 	
